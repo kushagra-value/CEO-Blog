@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    line-height: 1.6;
 }
 
 .cont-flex {
@@ -15,18 +16,19 @@ body {
 }
 
 header h1 {
-    font-size: 24px;
+    font-size: 28px;
+    color: #333;
 }
 
 .nav-link a {
-    color: rgb(36, 35, 35);
+    color: #333;
     text-decoration: none;
     margin-left: 20px;
-    font-weight: 50;
+    font-weight: 500;
 }
 
 .activelink {
-    color: rgb(34, 33, 33) !important;
+    color: #000 !important;
     text-decoration: none;
     margin-left: 20px;
     font-weight: 700 !important;
@@ -41,10 +43,11 @@ header h1 {
 
 .sidebar {
     width: 25%;
-    /* background-color: #fff; */
     padding: 20px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-right: 20px;
+    border-radius: 5px;
 }
 
 .header-user {
@@ -52,42 +55,39 @@ header h1 {
     align-items: center;
     max-width: 1160px;
     margin: 20px auto;
-    padding: 0px;
+    padding: 20px;
     background-color: #8f60ec;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 .image-user {
     width: 100px;
     height: 100px;
-    /* border-radius: 50%; */
+    border-radius: 50%;
     margin-right: 20px;
-    padding-left: 1rem;
 }
 
 .info-user {
-    flex: 1 2 auto;
+    flex: 1;
 }
 
 .name-user {
     margin-top: 10px;
-    font-size: 20px;
-    color: white;
+    font-size: 22px;
+    color: #fff;
     margin-bottom: 0;
-    /* White text color for name */
 }
 
 .title-user {
-    font-size: 14px;
-    color: white;
+    font-size: 16px;
+    color: #fff;
     margin: 0;
-    /* White text color for title */
 }
 
 .bio-user {
     font-size: 14px;
-    color: black;
-    /* Black text color for bio */
+    color: #333;
 }
 
 .socialmedia-links {
@@ -110,6 +110,8 @@ header h1 {
     margin-bottom: 20px;
     max-height: 400px;
     overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 .important-links {
@@ -117,26 +119,27 @@ header h1 {
     padding: 15px;
     max-height: 350px;
     overflow-y: auto;
-    color: rgb(35, 145, 208);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2391d0;
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
     font-size: small;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 #tag {
     background-color: #150a5c;
-    color: white;
+    color: #fff;
     font-size: small;
-    padding: 0.4rem;
-    padding-right: 0.5rem;
-    padding-right: 0.5rem;
+    padding: 0.4rem 0.5rem;
+    border-radius: 5px;
 }
 
 .categories h3,
 .important-links h3 {
     margin-top: 0;
-    /* Remove top margin for headings */
 }
-.categories h3{
+
+.categories h3 {
     margin-bottom: 0.2rem;
 }
 
@@ -151,7 +154,6 @@ header h1 {
     margin-bottom: 10px;
 }
 
-
 .articles {
     width: 70%;
 }
@@ -160,7 +162,8 @@ header h1 {
     background-color: #fff;
     padding: 15px;
     overflow-y: auto;
-
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 .featured-article img {
@@ -190,7 +193,8 @@ header h1 {
 .comment {
     background-color: #f9f9f9;
     padding: 10px;
-    /* margin-bottom: 10px; */
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .comment p {
@@ -207,16 +211,13 @@ header h1 {
 .article image {
     width: 100%;
     height: auto;
-    /* background-color: #fff;  */
-    /* padding: 15px; */
 }
 
 .article-content {
     background-color: #fff;
     padding: 15px;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 .image-container {
@@ -236,26 +237,30 @@ header h1 {
 
 .article-actions {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     margin-top: 10px;
-    margin-left: 1rem;
 }
 
 .article-info {
     font-size: small;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     padding: 10px;
 }
 
 .category {
-    background-color: rgb(51, 127, 213);
+    background-color: #337fd5;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 .category2 {
-    background-color: rgb(216, 77, 95);
+    background-color: #d84d5f;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 .content {
@@ -283,7 +288,7 @@ header h1 {
 }
 
 .share-section {
-    margin-left: 60%;
+    margin-left: auto;
 }
 
 .comments-section {
@@ -305,7 +310,6 @@ header h1 {
     padding-left: 4rem;
     background-color: #f9f9f9;
 }
-
 
 .comment-img {
     width: 30px;
@@ -346,7 +350,7 @@ header h1 {
 
 .pages a.active {
     background-color: #007bff;
-    color: white;
+    color: #fff;
 }
 
 .pages a:hover {
@@ -354,9 +358,9 @@ header h1 {
 }
 
 footer {
-    color: black;
+    color: #333;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
     margin-top: 20px;
 }
 
@@ -364,6 +368,8 @@ footer p {
     margin: 0;
 }
 
-hr{
-    margin: 0;
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
 }
