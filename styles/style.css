@@ -373,3 +373,94 @@ hr {
     border: 0;
     border-top: 1px solid #ddd;
 }
+
+/* Media Queries for Responsiveness */
+
+@media screen and (max-width: 1024px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .articles {
+        width: 100%;
+    }
+
+    .other-articles {
+        grid-template-columns: 1fr;
+    }
+
+    .cont-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-link a {
+        margin-left: 10px;
+    }
+
+    .socialmedia-links {
+        padding-right: 0;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-user {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-user {
+        margin-bottom: 15px;
+    }
+
+    .socialmedia-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .socialmedia-links img {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .pages a {
+        padding: 8px 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    .header-user {
+        padding: 15px;
+    }
+
+    .image-user {
+        width: 80px;
+        height: 80px;
+    }
+
+    .name-user {
+        font-size: 20px;
+    }
+
+    .title-user {
+        font-size: 14px;
+    }
+
+    .comment1 {
+        padding-left: 2rem;
+    }
+
+    .pages a {
+        padding: 6px 10px;
+    }
+}
